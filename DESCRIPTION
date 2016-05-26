@@ -1,0 +1,23 @@
+Package: netprioR
+Title: A model for network-based prioritisation of genes
+Description: A model for semi-supervised prioritisation of genes
+        integrating network data, phenotypes and additional prior
+        knowledge about TP and TN gene labels from the literature or
+        experts.
+Imports: stats, Matrix, dplyr, doParallel, foreach, parallel,
+        sparseMVN, ggplot2, gridExtra, pROC
+Depends: methods, graphics, R(>= 3.3)
+Suggests: knitr, BiocStyle, pander
+VignetteBuilder: knitr
+biocViews: CellBasedAssays, Preprocessing, Network
+Type: Package
+Lazyload: yes
+LazyData: true
+Version: 0.99.2
+Date: 2016-05-08
+Author: Fabian Schmich
+Maintainer: Fabian Schmich <fabian.schmich@bsse.ethz.ch>
+License: GPL-3
+URL: http://bioconductor.org/packages/netprioR
+RoxygenNote: 5.0.1
+NeedsCompilation: no
