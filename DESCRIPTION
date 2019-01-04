@@ -9,11 +9,11 @@ Imports: stats, Matrix, dplyr, doParallel, foreach, parallel,
 Depends: methods, graphics, R(>= 3.3)
 Suggests: knitr, BiocStyle, pander
 VignetteBuilder: knitr
-biocViews: CellBasedAssays, Preprocessing, Network
+biocViews: ImmunoOncology, CellBasedAssays, Preprocessing, Network
 Type: Package
 Lazyload: yes
 LazyData: true
-Version: 1.8.0
+Version: 1.8.1
 Date: 2016-05-08
 Author: Fabian Schmich
 Maintainer: Fabian Schmich <fabian.schmich@bsse.ethz.ch>
